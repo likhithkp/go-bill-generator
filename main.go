@@ -1,11 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func main() {
-	a := []string{}
-	a = append(a, "Likhith", "Shiba", "Shibashanth")
-	rangeOne := a[1:2]
-	fmt.Println(a)
-	fmt.Println(rangeOne)
+	a := []int{10, 20, 45, 55, 67, 85, 48, 95, 0, 12, 54}
+	index := sort.SearchInts(a, 67)
+	fmt.Println(index)
 }
