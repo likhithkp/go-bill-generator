@@ -40,7 +40,7 @@ Before you begin, ensure you have met the following requirements:
 
     or
 
-    go run main.go bills.go
+    go run main.go bill.go
     ```
 
 2. Follow the on-screen prompts to enter the required information:
